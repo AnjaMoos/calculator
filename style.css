@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(55, 49, 49);
+    font-family: "Poppins", sans-serif;
+  margin: 3px;
+  box-sizing: border-box;
+}
+
+h1{
+height: 4vh;
+text-align: center;
+color: rgb(0, 0, 0);
+border: solid 5px pink;
+border-radius: 25px;
+background-color: lightblue;
+width: 65%;
+font-size: 23px;
+margin-left: 75px;
+vertical-align: middle;
+justify-content: center;
+box-sizing: border-box;
+
+}
+.Bingo{
+
+    margin: 0;
+    border: 0;
+   
+    box-sizing: border-box;
+}
+
+#Affe{
+    height: 31vh;
+    background-color: rgb(197, 188, 188);
+    margin: 10px;
+    border: solid 5px pink;
+    border-radius: 5%;
+    font-size: 70px;
+    display: flex;
+justify-content: flex-end;
+align-items: flex-end;
+padding: 24px;
+box-sizing: border-box;
+
+}
+
+table{
+    height: 65vh;
+    width: 100%;
+    border: solid 5px pink(163, 106, 152); 
+    background-color: rgb(197, 188, 188);
+   padding: 0;
+   box-sizing: border-box;
+}
+
+td{
+    
+    border: solid pink 5px;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 45px;
+    width: 25%;
+    box-sizing: border-box;
+}
+
+#result{
+background-color: rgb(255, 0, 166);
+}
+
+.Maus{
+    background-color: lightblue;
+    font-family: "Poppins", sans-serif;
+}
+
+.Dino{
+    background-color: rgb(31, 95, 190);
+    font-family: "Poppins", sans-serif;
+}
+
+.Maus:hover{
+    background-color: rgb(205, 229, 237);
+}
+
+td:hover{ 
+    cursor:pointer;
+}
+
+.Dino:hover{
+   background-color: rgb(51, 115, 210);
+}
+.Bingo:hover{
+    
+    background-color: rgb(197, 188, 188);
+}
+
+#result:hover{
+    background-color: rgb(234, 93, 185);
+}
